@@ -131,7 +131,7 @@ const Hero = () => {
                 >
                   <motion.button
                     key={activeData.id}
-                    variants={fadeUp(0.3)}
+                    variants={fadeUp(0.2)}
                     initial="hidden"
                     animate="show"
                     exit="exit"
